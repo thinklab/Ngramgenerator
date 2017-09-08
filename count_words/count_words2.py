@@ -3,8 +3,8 @@ import operator
 import sys
 import time
 
-from tools import str_tools as name1
-from tools.str_tools import new_print_func
+from count_words.tools import new_print_func
+from count_words.tools import str_tools as name1
 
 
 def timing_decorator(count_words):
