@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """
 Generate some War&Peace lookalike words.
+
+
 """
 from __future__ import print_function
 import sys
@@ -8,7 +10,8 @@ import collections
 
 FREQ = collections.defaultdict(int)
 ALL_WORDS = set()
-N = 4
+#n of gramm(length)
+N = 3
 
 
 def frequency(ngram):
